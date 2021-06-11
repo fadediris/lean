@@ -14,7 +14,7 @@
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 
 #Docker
-if [ -e feeds/packages/utils/docker-ce ];then
-	sed -i '/dockerd/d' package/luci-app-dockerman/Makefile	
-  sed -i 's/+docker/+docker-ce/g' package/luci-app-dockerman/Makefile
-fi
+#if [ -e feeds/packages/utils/docker-ce ];then
+#  sed -i '/dockerd/d' package/luci-app-dockerman/Makefile	
+#  sed -i 's/+docker/+docker-ce/g' package/luci-app-dockerman/Makefile
+#fi
