@@ -18,5 +18,5 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 git clone https://github.com/tty228/luci-app-serverchan.git package/DIY/luci-app-serverchan
 git clone https://github.com/lisaac/luci-lib-docker.git package/DIY/luci-lib-docker
-git clone https://github.com/lisaac/luci-app-dockerman.git package/DIY/luci-app-dockerman
+git clone https://github.com/lisaac/luci-app-dockerman/tree/master/applications/luci-app-dockerman.git package/DIY/luci-app-dockerman
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/DIY/luci-app-adguardhome
